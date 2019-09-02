@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/item_pro"
+            android:title="プロフィール編集"/>
+    <item
+            android:id="@+id/item_cam"
+            android:title="QRコード読込"/>
+    <item
+            android:id="@+id/item_list"
+            android:title="友達リスト"/>
+
+</menu>

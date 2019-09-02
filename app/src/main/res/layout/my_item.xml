@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:layout_gravity="center_horizontal"
+              android:background="@drawable/customborder">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="0.08">
+        <TextView
+                android:id="@+id/name_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="0.08" android:textSize="32sp" android:textStyle="bold"/>
+        <ImageView
+                android:layout_width="90dp"
+                android:tint="#B4B4B4"
+                android:layout_height="match_parent" app:srcCompat="@drawable/ic_delete_black_24dp"
+                android:id="@+id/imageViewDel" android:layout_weight="0.08" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08">
+        <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp" app:srcCompat="@drawable/twitter1" android:id="@+id/imageButtonTwi"
+                android:scaleType="centerCrop" android:background="#0000"/>
+        <TextView
+                android:id="@+id/twi_textView"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:textSize="26sp"
+                android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="0.08">
+        <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp" app:srcCompat="@drawable/git" android:id="@+id/imageButtonGit"
+                android:scaleType="fitCenter" android:background="@drawable/ring_git"
+        />
+        <TextView
+                android:id="@+id/git_textView"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:textSize="26sp"
+                android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+</LinearLayout>
